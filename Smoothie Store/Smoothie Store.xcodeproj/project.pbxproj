@@ -32,6 +32,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0374B4B6289EF53F0054EE8C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03A7FFE3289EE375003ED1EE /* Smoothie_StoreApp.swift */,
+				03A7FFE7289EE379003ED1EE /* Assets.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		0374B4B7289EF5570054EE8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0374B4B8289EF5620054EE8C /* View Parts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Parts";
+			sourceTree = "<group>";
+		};
+		0374B4B9289EF56E0054EE8C /* Data + Modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data + Modals";
+			sourceTree = "<group>";
+		};
 		03A7FFD7289EE375003ED1EE = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +81,11 @@
 		03A7FFE2289EE375003ED1EE /* Smoothie Store */ = {
 			isa = PBXGroup;
 			children = (
-				03A7FFE3289EE375003ED1EE /* Smoothie_StoreApp.swift */,
+				0374B4B9289EF56E0054EE8C /* Data + Modals */,
+				0374B4B8289EF5620054EE8C /* View Parts */,
+				0374B4B7289EF5570054EE8C /* Views */,
+				0374B4B6289EF53F0054EE8C /* App */,
 				03A7FFE5289EE375003ED1EE /* ContentView.swift */,
-				03A7FFE7289EE379003ED1EE /* Assets.xcassets */,
 				03A7FFE9289EE379003ED1EE /* Preview Content */,
 			);
 			path = "Smoothie Store";

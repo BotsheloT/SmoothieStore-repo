@@ -11,7 +11,7 @@ import SwiftUI
 struct Smoothie_StoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
     }
 }

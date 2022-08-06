@@ -9,8 +9,9 @@ import SwiftUI
 
 struct OnboardingView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Smoothie Town")
+            .font(.largeTitle)
+            .fontWeight(.black)
     }
 }
 

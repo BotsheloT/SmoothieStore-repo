@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804E138C26C95F0B0085FD4F /* Super_ShakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804E138B26C95F0B0085FD4F /* Super_ShakesApp.swift */; };
+		804E139026C95F0C0085FD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804E138F26C95F0C0085FD4F /* Assets.xcassets */; };
+		804E139326C95F0C0085FD4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804E139226C95F0C0085FD4F /* Preview Assets.xcassets */; };
+		805753D726DA655800516FE4 /* ShakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805753D626DA655800516FE4 /* ShakeData.swift */; };
+		805753D926DA658A00516FE4 /* ShakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805753D826DA658A00516FE4 /* ShakeModel.swift */; };
+		805753DB26DA678F00516FE4 /* ShakeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805753DA26DA678F00516FE4 /* ShakeRowView.swift */; };
+		8077B2F826E3B0F10097CD0A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B2F726E3B0F10097CD0A /* DetailView.swift */; };
+		8077B2FB26E3B2BD0097CD0A /* ShakeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B2FA26E3B2BD0097CD0A /* ShakeImageView.swift */; };
+		8077B2FD26E3B2D10097CD0A /* ShakeDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B2FC26E3B2D10097CD0A /* ShakeDescriptionView.swift */; };
+		8077B2FF26E3B2E10097CD0A /* ShakeInstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B2FE26E3B2E10097CD0A /* ShakeInstructionsView.swift */; };
+		8077B30126E3B2ED0097CD0A /* ShakeNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8077B30026E3B2ED0097CD0A /* ShakeNutrientsView.swift */; };
+		80AB004326E795A000B3521B /* ShakesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB004226E795A000B3521B /* ShakesListView.swift */; };
+		80DF5C9126F63971004C61EA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DF5C9026F63971004C61EA /* InfoView.swift */; };
+		80FA0B1B26D13ED2003174D0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA0B1A26D13ED2003174D0 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		804E138826C95F0B0085FD4F /* Super Shakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Shakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		804E138B26C95F0B0085FD4F /* Super_ShakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_ShakesApp.swift; sourceTree = "<group>"; };
+		804E138F26C95F0C0085FD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		804E139226C95F0C0085FD4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		805753D626DA655800516FE4 /* ShakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShakeData.swift; path = ../../../../Resources/Data/ShakeData.swift; sourceTree = "<group>"; };
+		805753D826DA658A00516FE4 /* ShakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeModel.swift; sourceTree = "<group>"; };
+		805753DA26DA678F00516FE4 /* ShakeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeRowView.swift; sourceTree = "<group>"; };
+		8077B2F726E3B0F10097CD0A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8077B2FA26E3B2BD0097CD0A /* ShakeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeImageView.swift; sourceTree = "<group>"; };
+		8077B2FC26E3B2D10097CD0A /* ShakeDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDescriptionView.swift; sourceTree = "<group>"; };
+		8077B2FE26E3B2E10097CD0A /* ShakeInstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeInstructionsView.swift; sourceTree = "<group>"; };
+		8077B30026E3B2ED0097CD0A /* ShakeNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeNutrientsView.swift; sourceTree = "<group>"; };
+		80AB004226E795A000B3521B /* ShakesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakesListView.swift; sourceTree = "<group>"; };
+		80DF5C9026F63971004C61EA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		80FA0B1A26D13ED2003174D0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804E138526C95F0B0085FD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804E137F26C95F0B0085FD4F = {
+			isa = PBXGroup;
+			children = (
+				804E138A26C95F0B0085FD4F /* Super Shakes */,
+				804E138926C95F0B0085FD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804E138926C95F0B0085FD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804E138826C95F0B0085FD4F /* Super Shakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804E138A26C95F0B0085FD4F /* Super Shakes */ = {
+			isa = PBXGroup;
+			children = (
+				804E139C26C960DF0085FD4F /* App */,
+				804E139D26C960FC0085FD4F /* Views */,
+				804E139E26C961050085FD4F /* View Parts */,
+				804E139F26C961180085FD4F /* Data + Models */,
+				804E139126C95F0C0085FD4F /* Preview Content */,
+			);
+			path = "Super Shakes";
+			sourceTree = "<group>";
+		};
+		804E139126C95F0C0085FD4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				804E139226C95F0C0085FD4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		804E139C26C960DF0085FD4F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				804E138B26C95F0B0085FD4F /* Super_ShakesApp.swift */,
+				804E138F26C95F0C0085FD4F /* Assets.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		804E139D26C960FC0085FD4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80AB004226E795A000B3521B /* ShakesListView.swift */,
+				8077B2F726E3B0F10097CD0A /* DetailView.swift */,
+				80FA0B1A26D13ED2003174D0 /* OnboardingView.swift */,
+				80DF5C9026F63971004C61EA /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		804E139E26C961050085FD4F /* View Parts */ = {
+			isa = PBXGroup;
+			children = (
+				8077B2F926E3B2A60097CD0A /* DetailParts */,
+				805753DA26DA678F00516FE4 /* ShakeRowView.swift */,
+			);
+			path = "View Parts";
+			sourceTree = "<group>";
+		};
+		804E139F26C961180085FD4F /* Data + Models */ = {
+			isa = PBXGroup;
+			children = (
+				805753D626DA655800516FE4 /* ShakeData.swift */,
+				805753D826DA658A00516FE4 /* ShakeModel.swift */,
+			);
+			path = "Data + Models";
+			sourceTree = "<group>";
+		};
+		8077B2F926E3B2A60097CD0A /* DetailParts */ = {
+			isa = PBXGroup;
+			children = (
+				8077B2FA26E3B2BD0097CD0A /* ShakeImageView.swift */,
+				8077B2FC26E3B2D10097CD0A /* ShakeDescriptionView.swift */,
+				8077B2FE26E3B2E10097CD0A /* ShakeInstructionsView.swift */,
+				8077B30026E3B2ED0097CD0A /* ShakeNutrientsView.swift */,
+			);
+			name = DetailParts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804E138726C95F0B0085FD4F /* Super Shakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E139626C95F0C0085FD4F /* Build configuration list for PBXNativeTarget "Super Shakes" */;
+			buildPhases = (
+				804E138426C95F0B0085FD4F /* Sources */,
+				804E138526C95F0B0085FD4F /* Frameworks */,
+				804E138626C95F0B0085FD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super Shakes";
+			productName = "Super Shakes";
+			productReference = 804E138826C95F0B0085FD4F /* Super Shakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804E138026C95F0B0085FD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					804E138726C95F0B0085FD4F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 804E138326C95F0B0085FD4F /* Build configuration list for PBXProject "Super Shakes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804E137F26C95F0B0085FD4F;
+			productRefGroup = 804E138926C95F0B0085FD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804E138726C95F0B0085FD4F /* Super Shakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804E138626C95F0B0085FD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E139326C95F0C0085FD4F /* Preview Assets.xcassets in Resources */,
+				804E139026C95F0C0085FD4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804E138426C95F0B0085FD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8077B2FD26E3B2D10097CD0A /* ShakeDescriptionView.swift in Sources */,
+				805753D926DA658A00516FE4 /* ShakeModel.swift in Sources */,
+				8077B30126E3B2ED0097CD0A /* ShakeNutrientsView.swift in Sources */,
+				8077B2F826E3B0F10097CD0A /* DetailView.swift in Sources */,
+				80DF5C9126F63971004C61EA /* InfoView.swift in Sources */,
+				80FA0B1B26D13ED2003174D0 /* OnboardingView.swift in Sources */,
+				8077B2FB26E3B2BD0097CD0A /* ShakeImageView.swift in Sources */,
+				80AB004326E795A000B3521B /* ShakesListView.swift in Sources */,
+				8077B2FF26E3B2E10097CD0A /* ShakeInstructionsView.swift in Sources */,
+				805753D726DA655800516FE4 /* ShakeData.swift in Sources */,
+				805753DB26DA678F00516FE4 /* ShakeRowView.swift in Sources */,
+				804E138C26C95F0B0085FD4F /* Super_ShakesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		804E139426C95F0C0085FD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		804E139526C95F0C0085FD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804E139726C95F0C0085FD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Super Shakes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Super-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		804E139826C95F0C0085FD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Super Shakes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Super-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804E138326C95F0B0085FD4F /* Build configuration list for PBXProject "Super Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E139426C95F0C0085FD4F /* Debug */,
+				804E139526C95F0C0085FD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804E139626C95F0C0085FD4F /* Build configuration list for PBXNativeTarget "Super Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E139726C95F0C0085FD4F /* Debug */,
+				804E139826C95F0C0085FD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804E138026C95F0B0085FD4F /* Project object */;
+}

@@ -11,7 +11,6 @@ struct OnboardingView: View {
     var body: some View {
         VStack{
             //App Title
-            Group{
                 Image("Icon")
                     .resizable()
                     .frame(width: 120, height: 120)
@@ -19,7 +18,6 @@ struct OnboardingView: View {
                 Text("Smoothie Town")
                     .font(.largeTitle)
                     .fontWeight(.black)
-            }
             
             //Explore option
             Group{
